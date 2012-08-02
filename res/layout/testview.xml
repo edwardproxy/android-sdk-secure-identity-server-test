@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    	
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:padding="10dip" >
+    
+     <Button android:id="@+id/acsAuth"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Sign_In_with_ACS"
+	    />
+  	    <Button android:id="@+id/acsSignUp"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Sign_Up_with_ACS"
+	    />    
+		<Button android:id="@+id/testReset"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testReset"
+	    /> 
+	    <Button android:id="@+id/testCreateCocoafishSdk_1"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testCreateCocoafishSdk_1"
+	    /> 
+		<Button android:id="@+id/testCreateCocoafishSdk_2_context"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testCreateCocoafishSdk_2_context"
+	    />
+		<Button android:id="@+id/testCreateCocoafishSdk_3_api"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testCreateCocoafishSdk_3_api"
+	    />
+		<Button android:id="@+id/testCreateCocoafishSdk_2_secret"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testCreateCocoafishSdk_2_secret"
+	    />
+		<Button android:id="@+id/testCreateCocoafishSdk_3_secret"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testCreateCocoafishSdk_3_secret"
+	    />
+		<Button android:id="@+id/testCreateCocoafishSdk_4"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testCreateCocoafishSdk_4"
+	    />
+		<Button android:id="@+id/testSignin_arguments"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testSignin_arguments"
+	    />
+		<Button android:id="@+id/testSignin_withoutSecure_properties"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testSignin_withoutSecure_properties"
+	    />
+		<Button android:id="@+id/testSignin_withSecure_properties"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testSignin_withSecure_properties"
+	    />
+		<Button android:id="@+id/testSignup_arguments"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testSignup_arguments"
+	    />
+		<Button android:id="@+id/testSignup_withoutSecure_properties"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testSignup_withoutSecure_properties"
+	    />
+		<Button android:id="@+id/testSignup_withSecure_properties"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testSignup_withSecure_properties"
+	    />
+		<Button android:id="@+id/signin"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="signin"
+	    />
+		<Button android:id="@+id/testSignout"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testSignout"
+	    />
+		<Button android:id="@+id/signinGloble"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="signinGloble"
+	    />
+		<Button android:id="@+id/signupGloble"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="signupGloble"
+	    />
+		<Button android:id="@+id/testSignoutGloble"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testSignoutGloble"
+	    />
+		<Button android:id="@+id/testGetAndSet"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="testGetAndSet"
+	    />
+</LinearLayout>
+
+</ScrollView>
